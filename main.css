@@ -1,0 +1,373 @@
+@font-face {
+    font-family: Acunim ;
+    src: url(./fonts/Acumin-BdItPro.otf);
+}
+
+*{
+    font-family: Acunim;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.ul-btn{
+    width: 50%;
+    justify-content: end;
+}
+.mt-250{
+    margin-top: 300px;
+}
+.texts{
+    margin-left: 70px;
+}
+
+
+.link-btn{
+    border: 2px solid #056652;
+    padding: 6px 14px ;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #056652 !important;
+}
+.link-btn-2{
+    border: 2px solid hsl(168, 91%, 21%);
+    padding: 6px 14px ;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #ffffff !important;
+    background-color: #056652;
+}
+
+.back-img{
+    background-image: url(./Logos/first.jpg);
+    background-size: cover;
+    height: 80vh;
+    
+    border-radius: 20px;
+    position: relative;
+}
+
+ 
+
+.find-text{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 85%;
+}
+.find-2{
+    margin-left: 30px;
+}
+.find-3{
+    margin-left: 15px;
+
+}
+.find-2 p{
+    font-size: 20px;
+    color: #868787;
+}
+.card:hover .bi{
+    border: 1px solid;
+    
+    border-radius: 100%;
+    background-color: green;
+    
+}
+.cbody{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 15px 30px grey;
+}
+.cbody:hover{
+    transition: 1s;
+    top: 15px;
+    
+}
+.avatarcha{
+    display: flex;
+}
+.avatarcha1{
+    display: flex;
+    margin-top: 30px;
+}
+.michele{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.at{
+    color: grey;
+    margin: 0;
+    
+}
+.aj{
+    display: flex;
+}
+.join{
+    font-size: 20px;
+    color: rgb(56, 100, 62);
+}
+.btm{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px ;
+    background-color:#056652 ;
+    color: white;
+}
+.search{
+    width: 55%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px lightgrey;
+    padding-top: 15px;
+    color:#FFA602  ;
+}
+.bi{
+    width: 50px;
+    height: 50px;
+    color: #056652;
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 50%;
+    transition: 1s;
+
+    
+}
+.btn-search{
+    background-color: #056652;
+    color: white;
+    width: 70px;
+    padding: 10px 5px;
+    border-radius: 10px;
+     margin-top: -10px;
+}
+.logo-img{
+    width: 100px;
+}
+.mt-200{
+    margin-top: 150px;
+}
+.card-col{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgb(171, 171, 245),rgb(148, 148, 235),rgb(126, 126, 184));  
+    
+    border-radius: 15px;
+    display: flex;
+}
+.Get{
+    display: flex;
+    margin-top: 120px;
+    
+}
+.get{
+    color:#056652 ;
+}
+.house{
+    margin-top:-128px;
+    height: 550px;
+    margin-left: -60px;
+}
+
+.hom{
+    display: flex;
+}
+.homa{
+    display: flex;
+}
+.log{
+    width: 40px;
+    margin: 0 15px;
+}
+.putins{
+    color: gray;
+    margin-top: -10px;
+}
+.putincha{
+    color: gray;
+    margin-top: 20px;
+}
+.bl{
+    margin-left: 10px;
+    color: #056652;
+}
+.bl:hover{
+    background-color: #056652;
+    color: white;
+    
+    border-radius: 50%;
+    
+}
+.hr{
+    height: 2px;
+    background-color: grey;
+}
+.mb-500{
+    margin-top: -40px;
+}
+
+ .radius {
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem 0.2rem;
+}
+.car-img{
+    width: 90%;
+    height: 280px;
+    border-radius: 10px;
+    
+}
+.left{
+    width: 90%;
+    margin:15px auto;
+    text-align: start;
+    position: relative;
+}
+.label{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    text-align: center;
+    padding-top: 2px;
+}
+.label svg{
+    color: seagreen;
+}
+#check:checked + svg{
+    color: red;
+}
+#check2:checked + svg{
+    color: red;
+}
+
+#chek:checked + svg {
+    color: red;
+}
+.label input{
+    display: none;
+}
+.home-icon{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.radius-card .col-md-3 .card:hover{
+    box-shadow: 0 0 30px rgb(231, 229, 229);
+    border-bottom: 4px solid green;
+    
+}
+.uzun{
+    height: 100vh;
+} 
+.radius-card .col-md-3 .card{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.row-11{
+    position: relative;
+}
+.row-12{
+    position: relative;
+}
+
+.prev-btn{
+    width: 40px;
+    background-color: rgb(15, 139, 73);
+    position: absolute;
+    height: 40px;
+    top: -80px;
+    
+    left: 85%;
+    border-radius: 50%;
+}
+.user{
+    border-radius: 10px;
+}
+.real{
+    color: gray;
+}
+.next-btn{
+    position: absolute;
+    top:-80px;
+    left: 50;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(15, 139, 73) ;
+    border-radius: 50%;
+    
+
+}
+.pik{
+    width: 100px;
+    height: 30px;
+    margin-top: -20px;
+} 
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.prev-icon{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 130%;
+    left: 46%;
+}
+.next-icon{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 130%;
+    right: 43%;
+}
+.inp-btn{
+    display: flex;
+    position: relative;
+}
+.input{
+    width: 375px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+
+}
+.bt{
+    position: absolute;
+    margin-left: 250px;
+    width: 120px;
+    height: 50px;
+    top: 5px;
+    background-color: rgb(58, 57, 57);
+}
+.putin{
+    color: gray;
+}
+
+
+
+   
+    
+    
+   
